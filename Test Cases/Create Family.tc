@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Création d'une famille</description>
+   <name>Create Family</name>
+   <tag>Web</tag>
+   <comment></comment>
+   <testCaseGuid>8cea8bce-be1c-40dd-a0af-4e8ca1c5d3ad</testCaseGuid>
+</TestCaseEntity>
