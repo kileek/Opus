@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Poc Katalon" time="1" tests="0" failures="1" errors="0">
+   <testsuite name="Poc Katalon" tests="0" failures="1" errors="0" time="1" timestamp="2018-08-30 14:49:25" hostname="20010245 - L500396.hq.corp.leroymerlin.com" id="Test Suites/Poc Katalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\20010245\\Opus\\Reports\\Poc Katalon\\20180830_144913"/>
+         <property name="logFiles" value="C:\\Users\\20010245\\Opus\\Reports\\Poc Katalon\\20180830_144913\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="20010245 - L500396.hq.corp.leroymerlin.com"/>
+         <property name="hostAddress" value="10.1.100.69"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/OPUS_UI/Create Family" classname="Test Cases/OPUS_UI/Create Family" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L500396', ip: '10.1.100.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-08-30 14:49:26 - [TEST_CASE][FAILED] - Test Cases/OPUS_UI/Create Family: Test Cases/OPUS_UI/Create Family FAILED because (of) Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L500396', ip: '10.1.100.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-08-30 14:49:26 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L500396', ip: '10.1.100.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-08-30 14:49:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-08-30 14:49:27 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L500396', ip: '10.1.100.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-08-30 14:49:26 - [TEST_CASE][FAILED] - Test Cases/OPUS_UI/Create Family: Test Cases/OPUS_UI/Create Family FAILED because (of) Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L500396', ip: '10.1.100.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-30 14:49:25 - [TEST_SUITE][FAILED] - Poc Katalon: Test Cases/OPUS_UI/Create Family FAILED because (of) Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L500396', ip: '10.1.100.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-08-30 14:49:25 - [TEST_SUITE][FAILED] - Poc Katalon: Test Cases/OPUS_UI/Create Family FAILED because (of) Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L500396', ip: '10.1.100.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

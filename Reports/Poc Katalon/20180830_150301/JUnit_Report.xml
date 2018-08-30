@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Poc Katalon" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="Poc Katalon" tests="1" failures="0" errors="0" time="13" timestamp="2018-08-30 15:03:04" hostname="20010245 - L500396.hq.corp.leroymerlin.com" id="Test Suites/Poc Katalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\20010245\\Opus\\Reports\\Poc Katalon\\20180830_150301"/>
+         <property name="logFiles" value="C:\\Users\\20010245\\Opus\\Reports\\Poc Katalon\\20180830_150301\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="20010245 - L500396.hq.corp.leroymerlin.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.1.100.69"/>
+         <property name="sessionId" value="1eb442d3bd3e263b3ac34b4589a0bcc7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OPUS_UI/Create Family" classname="Test Cases/OPUS_UI/Create Family" status="PASSED">
+         <system-out><![CDATA[2018-08-30 15:03:04 - [TEST_CASE][PASSED] - Test Cases/OPUS_UI/Create Family: Test Cases/OPUS_UI/Create Family
+
+2018-08-30 15:03:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.9.124.128:8080/legacy/#/'
+
+2018-08-30 15:03:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.9.124.128:8080/legacy/#/'
+
+2018-08-30 15:03:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-30 15:03:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-30 15:03:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-30 15:03:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-30 15:03:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MenuFamily' is clicked on
+
+2018-08-30 15:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MenuFamily' is clicked on
+
+2018-08-30 15:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MenuNewFamily' is clicked on
+
+2018-08-30 15:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MenuNewFamily' is clicked on
+
+2018-08-30 15:03:15 - [TEST_STEP][PASSED] - Statement - URLNewFamily = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'http://10.9.124.128:8080/legacy/#/family/new'
+
+2018-08-30 15:03:15 - [MESSAGE][PASSED] - Current window's url is: 'http://10.9.124.128:8080/legacy/#/family/new'
+
+2018-08-30 15:03:15 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://10.9.124.128:8080/legacy/#/family/new' and expected object 'http://10.9.124.128:8080/legacy/#/family/new' are equal
+
+2018-08-30 15:03:15 - [MESSAGE][PASSED] - Actual object 'http://10.9.124.128:8080/legacy/#/family/new' and expected object 'http://10.9.124.128:8080/legacy/#/family/new' are equal
+
+2018-08-30 15:03:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/NewFamilyPage/NewFamilyModel' 
+
+2018-08-30 15:03:15 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/NewFamilyPage/NewFamilyModel' 
+
+2018-08-30 15:03:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/NewFamilyPage/NewFamilyCreationVerification' is present
+
+2018-08-30 15:03:15 - [MESSAGE][PASSED] - Object 'Object Repository/NewFamilyPage/NewFamilyCreationVerification' is present
+
+2018-08-30 15:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NewFamilyPage/NewFamilyCreateButton' is clicked on
+
+2018-08-30 15:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/NewFamilyPage/NewFamilyCreateButton' is clicked on
+
+2018-08-30 15:03:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/NewFamilyPage/NewFamilyDeleteFamilyButton' is visible
+
+2018-08-30 15:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/NewFamilyPage/NewFamilyDeleteFamilyButton' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-30 15:03:04 - [TEST_SUITE][PASSED] - Poc Katalon: Test Cases/OPUS_UI/Create Family]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

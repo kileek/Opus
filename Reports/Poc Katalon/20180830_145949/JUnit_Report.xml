@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Poc Katalon" time="11" tests="0" failures="1" errors="0">
+   <testsuite name="Poc Katalon" tests="0" failures="1" errors="0" time="11" timestamp="2018-08-30 14:59:52" hostname="20010245 - L500396.hq.corp.leroymerlin.com" id="Test Suites/Poc Katalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\20010245\\Opus\\Reports\\Poc Katalon\\20180830_145949"/>
+         <property name="logFiles" value="C:\\Users\\20010245\\Opus\\Reports\\Poc Katalon\\20180830_145949\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\20010245\\Opus\\Reports\\Poc Katalon\\20180830_145949\\1535634001794.png"/>
+         <property name="hostName" value="20010245 - L500396.hq.corp.leroymerlin.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.1.100.69"/>
+         <property name="sessionId" value="89896524ed9c56ee81c3ff1df6498831"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OPUS_UI/Create Family" classname="Test Cases/OPUS_UI/Create Family" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-30 14:59:52 - [TEST_CASE][FAILED] - Test Cases/OPUS_UI/Create Family: Test Cases/OPUS_UI/Create Family FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-30 14:59:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.9.124.128:8080/legacy/#/'
+
+2018-08-30 15:00:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.9.124.128:8080/legacy/#/'
+
+2018-08-30 15:00:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-30 15:00:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-30 15:00:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-30 15:00:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-30 15:00:01 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-30 15:00:01 - [MESSAGE][WARNING] - Test object with id 'Object Repository/OPUS UI Locator/MenuFamily' does not exist
+
+2018-08-30 15:00:01 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-30 15:00:02 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\20010245\\Opus\\Reports\\Poc Katalon\\20180830_145949\\1535634001794.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-30 14:59:52 - [TEST_CASE][FAILED] - Test Cases/OPUS_UI/Create Family: Test Cases/OPUS_UI/Create Family FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-30 14:59:52 - [TEST_SUITE][FAILED] - Poc Katalon: Test Cases/OPUS_UI/Create Family FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-08-30 14:59:52 - [TEST_SUITE][FAILED] - Poc Katalon: Test Cases/OPUS_UI/Create Family FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

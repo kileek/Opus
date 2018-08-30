@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Poc Katalon,Chrome 68.0.3440.106,,2018-08-30 15:01:29,2018-08-30 15:01:40,"11,132s",FAILED
+,,,,,,
+Test Cases/OPUS_UI/Create Family,Chrome 68.0.3440.106,,2018-08-30 15:01:30,2018-08-30 15:01:40,"9,811s",FAILED
+openBrowser,Chrome 68.0.3440.106,,2018-08-30 15:01:30,2018-08-30 15:01:38,"7,385s",PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-08-30 15:01:38,2018-08-30 15:01:39,"1,164s",PASSED
+waitForPageLoad,Chrome 68.0.3440.106,,2018-08-30 15:01:39,2018-08-30 15:01:39,"0,247s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-30 15:01:39,2018-08-30 15:01:40,"0,552s",FAILED
