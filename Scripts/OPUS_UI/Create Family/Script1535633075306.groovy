@@ -19,3 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser(GlobalVariable.Environment)
+WebUI.maximizeWindow()
+WebUI.waitForPageLoad(20)
+WebUI.click(findTestObject("MenuFamily"))
+WebUI.click(findTestObject("MenuNewFamily"))
+URLNewFamily = WebUiBuiltInKeywords.getUrl()
+WebUiBuiltInKeywords.verifyEqual(URLNewFamily, GlobalVariable.Environment+'family/new')
+WebUI.selectOptionByValue(findTestObject('NewFamilyPage/NewFamilyModel'), '0', false)
+WebUI.verifyElementPresent(findTestObject('NewFamilyPage/NewFamilyCreationVerification'), 10)
+WebUI.click(findTestObject("NewFamilyPage/NewFamilyCreateButton"))
+WebUI.waitForElementVisible(findTestObject("NewFamilyPage/NewFamilyDeleteFamilyButton"), 10)

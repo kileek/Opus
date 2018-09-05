@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Poc Katalon,Chrome 68.0.3440.106,,2018-08-30 15:03:04,2018-08-30 15:03:17,"13,232s",PASSED
+,,,,,,
+Test Cases/OPUS_UI/Create Family,Chrome 68.0.3440.106,,2018-08-30 15:03:04,2018-08-30 15:03:16,"11,941s",PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-08-30 15:03:05,2018-08-30 15:03:13,"7,751s",PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-08-30 15:03:13,2018-08-30 15:03:14,"1,179s",PASSED
+waitForPageLoad,Chrome 68.0.3440.106,,2018-08-30 15:03:14,2018-08-30 15:03:14,"0,173s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-30 15:03:14,2018-08-30 15:03:15,"0,253s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-30 15:03:15,2018-08-30 15:03:15,"0,177s",PASSED
+Statement - URLNewFamily = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 68.0.3440.106,,2018-08-30 15:03:15,2018-08-30 15:03:15,"0,194s",PASSED
+verifyEqual,Chrome 68.0.3440.106,,2018-08-30 15:03:15,2018-08-30 15:03:15,"0,035s",PASSED
+selectOptionByValue,Chrome 68.0.3440.106,,2018-08-30 15:03:15,2018-08-30 15:03:15,"0,271s",PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-30 15:03:15,2018-08-30 15:03:15,"0,159s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-30 15:03:15,2018-08-30 15:03:16,"0,119s",PASSED
+waitForElementVisible,Chrome 68.0.3440.106,,2018-08-30 15:03:16,2018-08-30 15:03:16,"0,635s",PASSED

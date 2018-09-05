@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Poc Katalon,,,2018-08-30 14:53:05,2018-08-30 14:53:06,"1,532s",FAILED
+,,,,,,
+Test Cases/OPUS_UI/Create Family,,,2018-08-30 14:53:05,2018-08-30 14:53:06,"0,934s",FAILED
+waitForPageLoad,,,2018-08-30 14:53:05,2018-08-30 14:53:06,"0,499s",FAILED
